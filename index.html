@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>ゆっくりXPのホームページ</title>
     <style>
+ 
+.testing {
+  animation: fadeDown 1.5s ease-out forwards;
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+	.fade-in {
+  animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
         body {
-		background-image: url("back.bmp");
+    background: linear-gradient(180deg , rgb(0, 255, 255),rgb(255,0, 255));
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
-		font-family: Arial, sans-serif;
+		font-family: meiryo, sans-serif;
 		max-width: 800px;
 		margin: 0 auto;
 		padding: 20px;
 		line-height: 1.6;
+		
         }
         h1 {
             color: #333;
@@ -28,22 +60,25 @@
     </style>
 </head>
 <body>
+<div class="testing">
     <h1>ゆっくりXPのホームページ</h1>
-    
-    <div class="section">
-        <h2>About</h2>
-        <p>ITやプログラミングをやってる人です。</p>
+</div>
+    <div class="fade-in">
+        <h3>私について</h3>
+        <p>ITや主にプログラミング、特にYouTubeでPC系の動画を出している人です。<br>過去にMEMZウイルスの動画を上げてた人です。</p>
     </div>
 
-    <div class="section">
-        <h2>公開しているソフト</h2>
-        <a href="SQUARING-CORNER-V5.5.zip">SQUARING CORNER</a>
+    <div class="fade-in">
+        <h3>公開しているソフト</h3>
+        <a href="squaringcorner.html">SQUARING CORNER</a>
     </div>
 
-    <div class="section">
-        <h2>やっているSNS</h2>
-        <a href="https://x.com/Yukkuri_XP">X(Twitter)</a>
-        <a href="https://www.youtube.com/@Yukkuri_XP">YouTube</a>
+    <div class="fade-in">
+        <h3>活動しているサービス</h3>
+        <a href="https://x.com/Yukkuri_XP">X(Twitter)</a><br>
+        <a href="https://www.youtube.com/@Yukkuri_XP">YouTube</a><br>
+        <a href="https://discord.gg/XKW5V8Jfgk">Discord</a><br>
+        <a href="https://nicovideo.jp/user/117669365">ニコニコ動画</a>
     </div>
 </body>
 </html>
