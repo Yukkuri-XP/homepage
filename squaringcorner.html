@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQUARING CORNERの紹介</title>
+    <style>
+ 
+ .fade-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: fadeInRight 1.0s ease-out forwards;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.testing {
+  animation: fadeDown 1.5s ease-out forwards;
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+	.fade-in {
+  animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+        body {
+    background: linear-gradient(180deg , rgb(0, 255, 255),rgb(255,0, 255));
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		font-family: meiryo, sans-serif;
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 20px;
+		line-height: 1.6;
+		
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+<div class="testing">
+    <h1>SQUARING CORNERの紹介</h1>
+</div>
+    <div class="fade-in">
+        <h3>このソフトとは？</h3>
+        <p>
+          Windows 11で四隅が丸くなったウィンドウを四角に戻すソフト。<br>
+          ウィンドウの下部の両端が見切れてしまう場合などに便利<br>
+
+          起動するとタスクトレイに常駐し、設定されたホットキーを押すと、現在のアクティブウィンドウを角丸から四角に変更することが可能。<br>
+          タスクトレイの右クリックメニューの「角丸の設定」の3種類の項目から、角丸ウィンドウの設定が変更もできる。<br>
+        </p>
+        <img src="SQUARING CORNER.jpg" alt="SQUARING_CORNERのイメージ" width="320" height="240">
+        <p>角丸で下部の両端が見えない状態を改善</p>
+        <img src="KADOMARU_MIENAI.png" alt="SQUARING_CORNERで角丸が見えないイメージ" width="200" height="80">
+        <p>SQUARING CORNERの右クリックメニュー</p>
+        <img src="SQUARING-CORNER-trailer2.png" alt="SQUARING_CORNERのイメージ" width="278" height="249">
+    </div>
+    <p>
+      <div class="fade-in-right">
+      <h3>注意事項</h3>
+      SQUARING CORNERは必ずしも安定性を保証するものではありません。<br>
+      このソフトはWindows 10以下のOSでは使用できません。<br>
+
+      本ソフトはバグや動作不良などがないかを想定して作られていますが、場合によっては正常に動作しない場合があります。<br>
+      なお、ご意見や提案や動作不良報告は歓迎いたします。
+    </p>
+    </div>
+     <div class="fade-in">
+      <h3>ダウンロード</h3>
+      <a href="SQUARING-CORNER-V5.5.zip">SQUARING-CORNER-V5.5</a>
+      <h3>更新内容</h3>
+      <p>v5.5<br>角丸の処理時のメッセージを自動で閉じるように変更。</p>
+     </div>
+     <a href="index.html">←戻る</a>
+</body>
+</html>
